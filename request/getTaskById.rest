@@ -1,0 +1,3 @@
+GET http://localhost:8080/task/641b48473788c8ed170def36
+Authorization:  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MTlmY2Q5YmZlNjg1ZmMxM2NiN2M5OCIsImlhdCI6MTY3OTUxMTE4MCwiZXhwIjoxNjc5NTk3NTgwfQ.jdpsRp-gSS5IPCb-K8_EW9eDnfRD3JqpvmuMtabNJm0
+

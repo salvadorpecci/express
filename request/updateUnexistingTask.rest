@@ -1,0 +1,8 @@
+PUT http://localhost:8080/task/24
+Content-Type: application/json
+
+{
+    "name": "Terminar cosas",
+    "finished": false
+
+}

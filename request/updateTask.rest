@@ -1,0 +1,9 @@
+PUT http://localhost:8080/task/641b46f54df0e4dcd83e12ba
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MTlmOGQwN2I1NWVhMTM2MzQ5YmQzYSIsImlhdCI6MTY3OTUxMzA2MywiZXhwIjoxNjc5NTk5NDYzfQ.gU8qnN3KRESlR4pe4KdHW14jg9FiY477Ky6GniUJ46E
+
+{
+    "name": "Prueba terminada",
+    "finished": true
+
+}

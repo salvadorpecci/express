@@ -1,0 +1,10 @@
+POST http://localhost:8080/task 
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MTlmOGQwN2I1NWVhMTM2MzQ5YmQzYSIsImlhdCI6MTY4MTkyNzA0OCwiZXhwIjoxNjgyMDEzNDQ4fQ.TeT4AF7derGznhoGG9yaZaOlYiE_9_ETwpq466DqRqc
+
+
+{
+    "name": "prueba deadline",
+    "finished": false,
+    "deadline": null
+}
