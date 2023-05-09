@@ -33,7 +33,7 @@ export function getById (request, response) {
   if(!Types.ObjectId.isValid(id)){
     response
       .status(400)
-      .send({ error: 'Bad request'})
+      .send({ message: 'Bad request'})
       return
 
   }
