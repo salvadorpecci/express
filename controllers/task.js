@@ -100,8 +100,7 @@ export function create (request, response) {
  * @param {express.Response} response 
  */
 export function updateById(request, response) {
-
-  const { name, finished, deadline } = request.body
+  const { name, finished } = request.body
   const userId = request.user?._id
         if(name == null || 
           name.length === 0 ||
@@ -123,7 +122,7 @@ export function updateById(request, response) {
             return
         }
 
-        const date = moment(deadline, 'YYYY-MM-DD').utc().format()
+        const date = request.body.deadline == null ? undefined : moment(request.body.deadline, 'YYYY-MM-DD').utc().format()
 
         Task.findOneAndUpdate({ _id: id, userId }, { name, finished, deadline: date }, { new: true })
           .then(task =>{
